@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("L.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            color: #333;
+            padding-bottom: 50px;
+		}
+
+		.gallery-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-container img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 3px solid white;
+        }
+
+        .gallery-container img:hover {
+            transform: scale(1.04);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+		.nav {
+            background-color: #ffffff;
+            border-radius: 50px;
+            list-style-type: none;
+            text-align: center;
+            overflow: hidden;
+            position: sticky;
+            top: 20px;
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 5px 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            z-index: 100;
+        }
+
+        .nav li {
+            display: inline-block;
+        }
+
+        .nav li a {
+            display: block;
+            color: #555;
+            font-size: 18px;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border-radius: 30px;
+        }
+
+        .nav li a:hover {
+            background-color: #ffeef2;
+            color: #e74c3c;
+        }
+
+		.b{
+			list-style-type:none;
+			width:200px;
+			transition: all 0.3s ease;
+			background-color:lightgreen;
+			display:block;
+			margin-left:290px;
+			text-align:center;
+			color:blue;
+			font-weight: 600;
+			font-size:20px;
+			padding:8px 16px;
+			text-decoration:none;
+			border-radius: 30px;
+		}
+
+		.b a:hover {
+            color: #e74c3c;
+			background-color: #ffeef2;
+		}
+
+		h1{
+			color: #e74c3c;
+            text-align: center;
+            font-size: 60px;
+            font-weight: bold;
+            margin-top: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+		}
+
+		h2{
+			color:hsl(125, 96%, 17%);
+			text-align:center;
+			font-size:30px;
+			font-weight:bold;
+		}
+		h3{
+			color:#6e0160;
+			text-align:center;
+			font-size:35px;
+			font-weight:bold;
+		}
+		
+	</style>
+</head>
+	<body>
+		<h1>My Photos</h1>
+		<ul class="nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About us</a></li>
+		<li><a href="gallery.html">Picnic</a></li>
+		<li><a href="Contact.html">Contact us</a></li>
+		</ul>
+
+		<h2>Click on the Picnic City</h2>
+
+		<ul class="b">
+		<li><a href="Lucknow.html">Lucknow</a></li>
+		<li><a href="Varanasi.html">Varanasi</a></li>
+		<li><a href="Lumbini.html">Lumbini(Nepal)</a></li>
+		</ul> 
+
+		<h3>Lucknow Picnic Gallery</h3>
+		<div class="gallery-container">
+		<img src="IMG-2.jpg" alt="IMG 3">
+		<img src="IMG-4.jpg" alt="IMG 5">
+		<img src="IMG-5.jpg" alt="IMG 6">
+		<img src="IMG-6.jpg" alt="IMG 7">
+		<img src="IMG-7.jpg" alt="IMG 7">
+		<img src="IMG-8.jpg" alt="IMG 8">
+		<img src="IMG-9.jpg" alt="IMG 9">
+		</div>
+	</body>
+</html>

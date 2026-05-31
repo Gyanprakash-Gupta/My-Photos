@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("L.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            color: #333;
+            padding-bottom: 50px;
+		}
+
+		.gallery-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-container img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 3px solid white;
+        }
+
+        .gallery-container img:hover {
+            transform: scale(1.04);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+		.nav {
+            background-color: #ffffff;
+            border-radius: 50px;
+            list-style-type: none;
+            text-align: center;
+            overflow: hidden;
+            position: sticky;
+            top: 20px;
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 5px 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            z-index: 100;
+        }
+
+        .nav li {
+            display: inline-block;
+        }
+
+        .nav li a {
+            display: block;
+            color: #555;
+            font-size: 18px;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border-radius: 30px;
+        }
+
+        .nav li a:hover {
+            background-color: #ffeef2;
+            color: #e74c3c;
+        }
+
+		.b{
+			list-style-type:none;
+			width:200px;
+			transition: all 0.3s ease;
+			background-color:lightgreen;
+			display:block;
+			margin-left:290px;
+			text-align:center;
+			color:blue;
+			font-weight: 600;
+			font-size:20px;
+			padding:8px 16px;
+			text-decoration:none;
+			border-radius: 30px;
+		}
+
+		.b a:hover {
+            color: #e74c3c;
+			background-color: #ffeef2;
+		}
+
+		h1{
+			color: #e74c3c;
+            text-align: center;
+            font-size: 60px;
+            font-weight: bold;
+            margin-top: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+		}
+
+		h2{
+			color:#04048b;
+			text-align:center;
+			font-size:30px;
+			font-weight:bold;
+		}
+
+		h3{
+			color:hsl(332, 96%, 33%);
+			text-align:center;
+			font-size:35px;
+			font-weight:bold;
+		}
+
+	</style>
+</head>
+	<body>
+		<h1>My Photos</h1>
+		<ul class="nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About us</a></li>
+		<li><a href="gallery.html">Picnic</a></li>
+		<li><a href="Contact.html">Contact us</a></li>
+		</ul>
+
+		<h2>Click on the Picnic City</h2>
+
+		<ul class="b">
+		<li><a href="Lucknow.html">Lucknow</a></li>
+		<li><a href="Varanasi.html">Varanasi</a></li>
+		<li><a href="Lumbini.html">Lumbini(Nepal)</a></li>
+		</ul> 
+
+		<h3>Varanasi Picnic Gallery</h3>
+		<div class="gallery-container">
+		<img src=" kashi1.jpg" alt="Kashi Vishwanath Temple 1">
+		<img src=" kashi2.jpg" alt="Kashi Vishwanath Temple">
+		<img src=" kashi3.jpg" alt="Kashi Vishwanath Temple">
+		<img src=" kashi4.jpg" alt="Kashi Vishwanath Temple">
+		<img src=" kashi5.jpg" alt="Kashi Vishwanath Temple">
+		<img src=" kashi6.jpg" alt="Kashi Vishwanath Temple">
+		<img src=" Buddha1.jpg" alt="Buddha Temple 1">
+		<img src=" Buddha2.jpg" alt="Buddha Temple 2">
+		<img src=" Buddha3.jpg" alt="Buddha Temple 3">
+		<img src=" Buddha4.jpg" alt="Buddha Temple 4">
+		<img src=" Buddha5.jpg" alt="Buddha Temple 5">
+		<img src=" Buddha6.jpg" alt="Buddha Temple 6">
+		<img src=" Buddha7.jpg" alt="Buddha Temple 7">
+		<img src=" Buddha8.jpg" alt="Buddha Temple 8">
+		<img src=" Buddha9.jpg" alt="Buddha Temple 9">
+		<img src=" Buddha10.jpg" alt="Buddha Temple 10">
+		<img src=" Shiv1.jpg" alt="Shiv Temple 1">
+		<img src=" Shiv2.jpg" alt="Shiv Temple 2">
+		<img src=" Shiv3.jpg" alt="Shiv Temple 3">
+		<img src=" Shiv4.jpg" alt="Shiv Temple 4">
+		<img src=" Shiv5.jpg" alt="Shiv Temple 5">
+		<img src=" Shiv6.jpg" alt="Shiv Temple 6">
+		<img src=" Shiv7.jpg" alt="Shiv Temple 7">
+		<img src=" Shiv8.jpg" alt="Shiv Temple 8">
+		<img src=" Shiv9.jpg" alt="Shiv Temple 9">
+		<img src=" Temple1.jpg" alt="Shri Digambar jain Mandir 1">
+		<img src=" Temple2.jpg" alt="Shri Digambar jain Mandir 2">
+		<img src=" Temple3.jpg" alt="Shri Digambar jain Mandir 3">
+		<img src=" Temple4.jpg" alt="Shri Digambar jain Mandir 4">
+		<img src=" Temple5.jpg" alt="Shri Digambar jain Mandir 5">
+		<img src=" Temple6.jpg" alt="Shri Digambar jain Mandir 6">
+		<img src=" Temple7.jpg" alt="Shri Digambar jain Mandir 7">
+		<img src=" Temple8.jpg" alt="Shri Digambar jain Mandir 8">
+		<img src=" Temple9.jpg" alt="Shri Digambar jain Mandir 9">
+		<img src=" Temple10.jpg" alt="Shri Digambar jain Mandir 10">
+		<img src=" Ganga1.jpg" alt="Ganga River 1">
+		<img src=" Ganga2.jpg" alt="Ganga River 2">
+		<img src=" Ganga3.jpg" alt="Ganga River 3">
+		<img src=" Ganga4.jpg" alt="Ganga River 4">
+		<img src=" Ganga5.jpg" alt="Ganga River 5">
+		<img src=" Ganga6.jpg" alt="Ganga River 6">
+		<img src=" Ganga7.jpg" alt="Ganga River 7">
+		<img src=" Ganga8.jpg" alt="Ganga River 8">
+		</div>
+	</body>
+</html>
